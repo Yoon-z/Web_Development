@@ -1,0 +1,58 @@
+/******************** TAG SELECTORS ********************/
+body{
+    background-color: rgb(139, 207, 207);
+}
+hr{
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
+}
+
+
+
+
+/******************** CLASS SELECTORS ********************/
+
+/*
+.classname{}
+*/
+
+.heading{
+    color:rgb(27, 27, 90)
+}
+
+.profile{ 
+    width: 180px;
+    height: 180px;
+}
+/*first class of img profile.jpg*/
+
+.photo{
+    border-radius: 100%;
+}
+/*second class of img profile.jpg*/
+
+
+
+
+/******************** ID SELECTORS ********************/
+
+/*
+#IdName{}
+ID should be unique, but class doesn't matter.
+*/
+
+#skills{
+    font-size: 15px;
+}
+
+#hobbies{
+    font-size: 15px;
+}
+
+
+
+/*ID selectors and CLASS selectors can overwrite TAG selectors
+  and ID is more specific
+*/
