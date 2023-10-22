@@ -3,11 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <title>My Website</title>
+        <!-- add a lint to css file -->
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <table>
+        <table class="first_heading">
+            <!-- <tr>: The Table Row element. The <tr> HTML element defines a row of cells in a table -->
             <tr>
+                <!-- <td> defines a cell of a table that contains data. -->
                 <td><img class="profile photo" src="profile.jpg" alt=""></td>
                 <td>
                     <h1 id="name">Xiyue Zheng</h1>
@@ -16,9 +19,12 @@
                 </td>
             </tr>
         </table>
+        <image id="robot-pic" src="robot.png"></image>
+        <h3 id="robot-text"> I identify myself as robot </h3>
+        <!-- <hr> represents a thematic break between paragraph-level elements -->
         <hr>
         <h2 class="heading">Education</h2>
-        <ul>
+        <ul id="education">
             <table>
                 <thead>
                     <tr>
@@ -35,6 +41,7 @@
         </ul>
         <hr>
         <h2 class="heading">Programming Skills</h2>
+        <!-- <pre>represents preformatted text which is to be presented exactly as written in the HTML file. -->
         <pre id="skills">     C, Java, Python, HTML, CSS, Javascript</pre>
         <hr>
         <h2 class="heading">Hobbies</h2>

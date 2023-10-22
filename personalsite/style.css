@@ -1,12 +1,15 @@
 /******************** TAG SELECTORS ********************/
 body{
+    background-image: url("background.jpg");
     background-color: rgb(139, 207, 207);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white
 }
 hr{
     border-style: dotted none none;
-    border-color: grey;
+    border-color: rgb(144, 165, 135);
     border-width: 5px;
-    width: 10%;
+    width: 30%;
 }
 
 
@@ -18,8 +21,13 @@ hr{
 .classname{}
 */
 
+.first_heading{
+    margin-bottom: 30px;
+}
+
 .heading{
-    color:rgb(27, 27, 90)
+    text-align: center;
+    color:rgb(208, 248, 149)
 }
 
 .profile{ 
@@ -43,12 +51,33 @@ hr{
 ID should be unique, but class doesn't matter.
 */
 
+#robot-pic{
+    position:relative;
+    left: 520px;
+    margin-bottom: 20px;
+}
+
+#robot-text{
+    position:absolute;
+    top: 250px;
+    left: 640px;
+}
+
+#education{
+    position: relative;
+    left: 580px;
+}
+
 #skills{
-    font-size: 15px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 #hobbies{
-    font-size: 15px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 
