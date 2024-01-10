@@ -1,0 +1,29 @@
+.templatePic{
+    width: 300px;
+    height: 300px;
+}
+
+.arrow{
+    margin-top: 10px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.create_button{
+    width: 250px;
+}
+
+.button_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.create_div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
