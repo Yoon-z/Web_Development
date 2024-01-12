@@ -11,10 +11,10 @@ const TemplateModel = require('./models/Template');
 const MemeModel = require('./models/Meme');
 const { rmSync } = require('fs');
 
-const uri = 'mongodb+srv://zxy:VbmuB65mKy6RAuqj@cluster0.lu9tzt5.mongodb.net/?retryWrites=true&w=majority';
+const uri = '';
 
 const salt = bcrypt.genSaltSync(10);
-const secret = 'asdfe45we45w345wegw345werjktjwertkj';
+const secret = '';
 
 
 app.use(cors({credentials:true,origin:'http://localhost:3000'}));
